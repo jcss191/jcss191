@@ -1,39 +1,34 @@
-# ⚡ [jcss191] | Senior Security Engineer & Full-Stack Developer
+# ⚔️ Brazil Phone OSINT v3.0
 
-### 🕵️ Global Threat Hunter & Software Architect
-Expert em desenvolvimento de sistemas de baixo nível e automação de segurança ofensiva. Transformando lógica complexa em código performático e seguro.
+![Status](https://img.shields.io/badge/STATUS-OPERACIONAL-red?style=for-the-badge)
+![Vibe](https://img.shields.io/badge/VIBE-KALI_LINUX-black?style=for-the-badge)
 
----
+### 👊 Salve! 
+Eu sou o jc. Sou iniciante na área, mas sou curioso pra caramba e viciado em entender como as coisas funcionam por baixo do capô. Este projeto aqui é meu "primeiro filho" no mundo da cibersegurança.
 
-### 🛠️ Core Tech Stack (Expertise Level)
-
-| Linguagem | Aplicação em Cyber Security | Nível |
-| :--- | :--- | :--- |
-| **Python** | Exploit Dev, AI Security, Automation | `Advanced` |
-| **C++** | Kernel Drivers, Malware Analysis, Low-level Hooks | `Advanced` |
-| **JavaScript** | Web Recon, XSS Payloads, Secure Full-stack | `Advanced` |
-| **C# / Assembly** | Reverse Engineering & Shellcoding | `Intermediate/Advanced` |
+A ideia foi simples: **Por que ficar procurando números na mão se eu posso automatizar o Google pra fazer o trabalho sujo por mim?**
 
 ---
 
-### ☣️ Offensive & Defensive Skills
-- **Network Security:** Deep Packet Inspection, Protocol Fuzzing (Scapy, Wireshark).
-- **Web Security:** Advanced OWASP Top 10, JWT Hijacking, SQLi Filter Evasion.
-- **Reverse Engineering:** Ghidra, IDA Pro, Binary Patching.
-- **DevSecOps:** CI/CD Security Pipelines, Docker Hardening.
+### 🕵️ O que esse script faz?
+O **Brazil Phone OSINT** não é mágica, é **estratégia**. Ele pega um número de telefone e gera várias "Dorks" (comandos avançados do Google) para pescar:
+- 📄 PDFs perdidos em servidores do governo ou empresas.
+- 📊 Planilhas de Excel que alguém esqueceu de proteger.
+- 📱 Perfis de redes sociais e cadastros antigos.
+
+Tudo isso direto no terminal do Kali, com aquele visual **vermelho e preto** que a gente gosta.
 
 ---
 
-### 🚀 Tecnologias em Destaque
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+### 🚀 Como testar a ferramenta (No seu Kali)
+Se você também curte um terminal, é só colar esses comandos:
 
----
+```bash
+# Baixa o projeto
+git clone [https://github.com/jcss191/brazil-phone-osint.git](https://github.com/jcss191/brazil-phone-osint.git)
 
-### 📈 Terminal Stats
-![Stats de jcss191](https://github-readme-stats.vercel.app/api?username=jcss191&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true)
-![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=jcss191&layout=compact&theme=tokyonight&hide_progress=true)
+# Entra na pasta
+cd brazil-phone-osint
 
----
+# Roda o motor de busca
+python3 osint-phone.py
